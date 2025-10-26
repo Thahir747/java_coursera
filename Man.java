@@ -164,19 +164,7 @@ public class Manipulating {
 		// Identify a password
 
 
-public class Manipulating {
-	public static void main (String[] args){
-		String password="secRetOfM3*@";
-
-		if(password.equals("secRetfM3*@")){
-
-			System.out.println("Welcome");
-		}else{
-			System.out.println("Wrong password");
-		}
-
-	}
-}
+public class Manipulating
 
 
 
