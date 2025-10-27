@@ -157,7 +157,7 @@ public class Manipulating {
         System.out.println("testString.compareToIgnoreCase(\"JAVA\") : " +  testString.compareToIgnoreCase("JAVA"));
  
 	}
-}*/
+}
 
 
 
@@ -177,6 +177,104 @@ public class Manipulating {
 
 	}
 }
+
+
+public class Manipulating {
+    public static void main(String[] args) {
+
+        String password = "secRetO3*@";
+
+        if(password.compareTo("secRetO3*@") == 0 ) {
+            System.out.println("Welcome");
+        }else{
+			System.out.println("Wrong password");
+		}
+    }
+}
+
+
+		//Determine if a String is empty
+
+
+public class Manipulating {
+    public static void main(String[] args) {
+
+        String testString = "";
+
+        if( testString.isEmpty() ) {
+            System.out.println("The String is empty");
+        }else{
+			System.out.println("Welcome");
+		}
+    }
+}
+
+		//Determine if a String contains a substring
+
+public class Manipulating {
+    public static void main(String[] args) {
+
+        String fullName = "Tim Berners Lee";
+        String familyName = "Leee";
+
+        if( fullName.contains(familyName) ) {
+            System.out.println("The family name " + familyName + " exists in the name " + fullName);
+        }else{
+			System.out.println("Not found!!!");
+		}
+    }
+}
+
+			//Compare two Strings
+
+public class Manipulating {
+    public static void main(String[] args) {
+
+        String testString1 = "This is java";
+        String upperCaseTestString1 = testString1.toUpperCase();
+
+        //this will not execute
+        if( testString1.equals(upperCaseTestString1) ) {
+            System.out.println("Value of testString1 is equal to is uppercase version");
+        }
+
+        String testString2 = "THIs IS JAVA";
+        String upperCaseTestString2 = testString2.toUpperCase();
+
+        //this will execute
+        if( testString2.equals(upperCaseTestString2) ) {
+            System.out.println("Value of testString2 is equal to is uppercase version");
+        }
+    }
+}
+
+
+public class Manipulating {
+	public static void main (String[] args) {
+		String text = "He has a good reputation";
+
+		if(text.contains("good")){
+			System.out.println("You get a gift from Santa");
+		}else{
+			System.out.println("Next year, please");
+		}
+	}
+}*/
+
+public class Manipulating {
+	public static void main(String[] args){
+		String text1= "Cena";
+		String text2= "cEna";
+
+		if (text1.equals(text2)) {
+			System.out.println("The names are the same.");
+		}else{
+			System.out.println("Not same");
+		}
+
+	}
+}
+
 
 
 
