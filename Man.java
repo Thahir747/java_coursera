@@ -164,8 +164,5 @@ public class Manipulating {
 		// Identify a password
 
 
-public class Manipulating
-
-
 
 
