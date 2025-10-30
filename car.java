@@ -10,7 +10,6 @@ public class car {
         Scanner keyboard=new Scanner(System.in);
 
 
-        // TODO 2: Display the current state of the car (engine state, gear, speed)
 
         while(userChoice!=5){
             System.out.println(".........Car dashboard.............");
@@ -18,7 +17,6 @@ public class car {
             System.out.println("Cureent gear: "+ gear);
             System.out.println("Current speed: "+ currentSpeed);
 
-            // TODO 3: Add print statements for each variable you want to display or options available to the user
 
             System.out.println("1. Turn on/off the engine");
             System.out.println("2. Change gear (P, D, R)");
@@ -26,9 +24,6 @@ public class car {
             System.out.println("4. Brake");
             System.out.println("5. Exit");
        
-
-        // TODO 4: Prompt the user for their choice and store it in the 'choice' variable
-
             System.out.println("Enter your choice: ");
 
             userChoice=keyboard.nextInt();
