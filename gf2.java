@@ -52,3 +52,27 @@ public class Main {
         System.out.println(mustang);
     }
 }
+
+import java.awt.*;
+
+public class Main {
+    public static void main(String[] args) {
+
+       // Rectangle rectangle = new Rectangle();
+     //   Circle circle = new Circle();
+        Rectangle rectangle = new Rectangle(5.0,2.0);
+
+        Circle circle = new Circle(5.0);
+
+        double areaOfRectangle= ShapeMetricCalculator.calculateRectangleArea(rectangle);
+
+        double areaOfCircle = ShapeMetricCalculator.calculateCircleArea(circle);
+
+        System.out.println("Area of Rectangle: " + areaOfRectangle);
+
+        System.out.println("Area of circle: " + areaOfCircle);
+
+
+    }
+}
+
