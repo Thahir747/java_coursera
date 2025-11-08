@@ -25,23 +25,17 @@ public class Coffee {
         } else if (roast.equals("dark")) {
             caffeineLevelInMg = 150;
         } else {
-            System.out.println("Invalid roast type: " + roast);
-            System.out.println("Please enter 'light', 'medium', or 'dark'.");
             caffeineLevelInMg = 0;
         }
     }
 
-
-
     // Methods to simulate coffee preparation
     public void grindBeans() {
-        System.out.println("\nGrinding beans for "
-                + name + "...");
+        System.out.println("\nGrinding beans for " + name + "...");
     }
 
     public void brewCoffee() {
-        System.out.println("\nBrewing your favorite "
-                + name + "...");
+        System.out.println("\nBrewing your favorite " + name + "...");
     }
 
     // Method to print the information about the coffee
