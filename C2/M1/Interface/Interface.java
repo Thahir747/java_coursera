@@ -19,8 +19,7 @@ class ForwardButtonClass extends AbstractButtonClass implements ButtonPress {
     String message;
 
     @Override
-    public void buttonPress() {
-        System.out.println("Forwarding " + this.message
+    public void buttonPress() {        System.out.println("Forwarding " + this.message
                 + " to " + this.forwardTo);
     }
 
